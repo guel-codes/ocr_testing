@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "OCR Test"
+version = "0.1.0"
+description = "Basic OCR exploration"
+authors = ["Miguel J."]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+easyocr = "^1.4.1"
+pytorch = "^1.0.2"
+numpy = "^1.21.4"
+cv = "^1.0.0"
+matplotlib = "^3.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
